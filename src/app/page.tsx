@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { OverallDashboard } from "@/components/ui/overall-dashboard";
+import { OverallDashboard } from "@/components/dashboard/overall-dashboard";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
