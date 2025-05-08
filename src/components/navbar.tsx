@@ -30,19 +30,14 @@ const policyItems: { title: string; href: string; description: string }[] = [
 
 const forumCategories: { title: string; href: string; description: string }[] = [
   {
-    title: "General Discussion",
-    href: "/forums/general",
-    description: "Open discussions about Indonesian policies and their impacts.",
+    title: "Policies Discussion",
+    href: "/forums",
+    description: "Search and open discussions about Indonesian policies and their impacts.",
   },
   {
     title: "Expert Analysis",
     href: "/forums/expert",
     description: "Insights and analysis from policy experts and professionals.",
-  },
-  {
-    title: "Policy Impact",
-    href: "/forums/impact",
-    description: "Discuss how policies affect different sectors and communities.",
   },
 ]
 
